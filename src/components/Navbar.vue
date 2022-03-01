@@ -9,7 +9,8 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav Buggy">
                         <a class="nav-link" href="/">Home</a>
-                        <a class="nav-link" href="/contact">Contact</a>
+                        <!-- <a class="nav-link" href="/contact">Contact</a> -->
+                        <router-link class="nav-link" to="/contact">Contact</router-link>
                     </div>
                 </div>
             </div>
