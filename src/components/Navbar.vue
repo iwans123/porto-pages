@@ -2,13 +2,15 @@
     <div>
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
-                <a class="navbar-brand Scoot" href="/">Porto_WEB</a>
+                <!-- <a class="navbar-brand Scoot" href="/">Porto_WEB</a> -->
+                <router-link class="navbar-brand Scoot" to="/">Porto_WEB</router-link>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav Buggy">
-                        <a class="nav-link" href="/">Home</a>
+                        <!-- <a class="nav-link" href="/">Home</a> -->
+                        <router-link class="nav-link" to="/">Home</router-link>
                         <!-- <a class="nav-link" href="/contact">Contact</a> -->
                         <router-link class="nav-link" to="/contact">Contact</router-link>
                     </div>
